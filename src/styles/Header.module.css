@@ -1,0 +1,43 @@
+.headerContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #fafafa;
+  position: fixed;
+  padding: 15px 0;
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+  align-items: center;
+  justify-content: center;
+}
+.headerBox {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBox {
+  width: 250px;
+  height: 20px;
+  background: #fafafa;
+  border: 5px solid #0000;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #efefef;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.headerBox img {
+  display: block;
+  height: 30px;
+}
+.navBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.navBox img {
+  height: 20px;
+}
