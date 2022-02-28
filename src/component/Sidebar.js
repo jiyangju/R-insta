@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <div className={styles.container}>
       <Selfprofile/>
-      {/* {suggest.map(item => <Suggestions suggest={item}/>)} */}
+      {suggest.map(item => <Suggestions item={item}/>)}
     </div>
 
   )
