@@ -9,7 +9,7 @@ const MainArea = () => {
   return (
     <div className={styles.container}>
         <StatusBlock/>
-        {feed.map(item => <Post post={item}/>)}
+        {feed.map((item, index)=> <Post key={index} post={item}/>)}
     </div>
   )
 }

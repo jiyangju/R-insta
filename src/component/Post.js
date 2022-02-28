@@ -22,12 +22,12 @@ const Post = ({post}) => {
             </div>
                     <p className={styles.likes}>{post.post.likes}</p>
                     <p className={styles.description}><span></span>{post.post.caption}</p>
-                    <p classname={styles.postTime}>2 minutes ago</p>
+                    <p className={styles.postTime}>2 minutes ago</p>
         </div>
         <div className={styles.commentWrapper}>
             <img src="http://simpleicon.com/wp-content/uploads/smile-256x256.png" className={styles.icon} alt="" />
             <input type="text" className={styles.commentBox} placeholder="Add a comment" />
-            <button class={styles.commentBtn}>post</button>
+            <button className={styles.commentBtn}>post</button>
         </div>
     </div>
   )
