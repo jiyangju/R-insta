@@ -1,5 +1,43 @@
 .container {
+  height: auto;
   width: 100%;
   background-color: white;
   border: 1px solid #dfdfdf;
+}
+.suggestions {
+  height: 30px;
+  width: 100%;
+}
+.selfProfile {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.selfProfile img {
+  height: 50px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.info {
+  padding-left: 8px;
+  padding-bottom: 4px;
+}
+
+.selfProfile .username {
+  width: auto;
+  font-weight: bold;
+  color: #000;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.selfProfile .subText {
+  margin: 0px;
+}
+.selfProfile button {
+  margin-left: 50px;
+  cursor: pointer;
 }
