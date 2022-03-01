@@ -1,5 +1,46 @@
-.container {
+/* .container {
   width: 100%;
   background-color: white;
   border: 1px solid #dfdfdf;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+} */
+
+.selfProfile {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: black;
+
+  margin: 20px 0;
+  margin-left: 15px;
+}
+
+.selfProfile img {
+  height: 40px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.info {
+  padding-left: 4px;
+  padding-bottom: 4px;
+}
+
+.selfProfile .username {
+  width: auto;
+  font-weight: bold;
+  color: #000;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.selfProfile button {
+  margin-left: 60px;
+  cursor: pointer;
+  color: blue;
+  background-color: white;
+  border: none;
+  font-weight: bold;
 }

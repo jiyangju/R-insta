@@ -4,11 +4,11 @@ export const suggest = [
             imageUrl: 'https://i.pinimg.com/originals/3e/b6/ef/3eb6ef435f32f169dc1e278998f17ae8.jpg'
         },
         {
-            name: 'Alia Bhatt',
+            name: 'Machado',
             imageUrl: 'https://i.pinimg.com/originals/3e/b6/ef/3eb6ef435f32f169dc1e278998f17ae8.jpg'
         },
         {
-            name: 'Alia Bhatt',
+            name: 'Leinfo',
             imageUrl: 'https://i.pinimg.com/originals/3e/b6/ef/3eb6ef435f32f169dc1e278998f17ae8.jpg'
         }          
 ]

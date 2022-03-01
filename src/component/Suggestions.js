@@ -3,10 +3,6 @@ import styles from '../styles/Suggestions.module.css'
 
 const Suggestions = ({item}) => {
   return (
-    <div className={styles.container}> 
-      {/* <div className={styles.Suggestions}>
-        <p class="SuggestionsText">Suggestions for you</p>
-      </div> */}
       <div className={styles.selfProfile}>
           <div className={styles.profilePic}>
               <img src={item.imageUrl} alt="DP"/>
@@ -17,7 +13,6 @@ const Suggestions = ({item}) => {
           </div>
           <button className={styles.actionBtn}>Follow</button>
       </div>
-    </div>
   )
 }
 
