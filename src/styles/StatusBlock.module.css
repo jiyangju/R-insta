@@ -7,16 +7,17 @@
 
 .container {
   width: 700px;
-  min-height: 200px;
+  min-height: 100px;
   background: #fff;
   border: 1px solid #dfdfdf;
   border-radius: 2px;
-
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
-  overflow-x: auto;
+  /* overflow: hidden; */
+  /* overflow-x: auto; */
+  gap: 15px;
 }
 .selfProfile {
   height: 50px;
@@ -28,12 +29,12 @@
   margin: 10px 0;
   background: linear-gradient(45deg, rgb (255, 230, 0), rgb(255, 0, 128) 80%);
   padding: 3px;
+  /* overflow: hidden; */
 }
 
 .selfProfile img {
   height: 50px;
   width: 100%;
   border-radius: 50%;
-  border: inherit;
-  background: linear-gradient(45deg, rgb (255, 230, 0), rgb(255, 0, 128) 80%);
+  border: 2px red;
 }

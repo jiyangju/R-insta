@@ -18,8 +18,8 @@
 }
 
 .searchBox {
-  width: 250px;
-  height: 20px;
+  width: 300px;
+  height: 25px;
   background: #fafafa;
   border: 5px solid #0000;
   border-radius: 8px;
@@ -31,7 +31,7 @@
 
 .headerBox img {
   display: block;
-  height: 30px;
+  height: 50px;
 }
 .navBox {
   display: flex;
@@ -39,5 +39,5 @@
   gap: 5px;
 }
 .navBox img {
-  height: 20px;
+  height: 25px;
 }

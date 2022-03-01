@@ -1,7 +1,6 @@
 import styles from '../styles/StatusBlock.module.css'
 import { useEffect, useState } from 'react'
 import Status from './Status'
-import Statusprofile from './Statusprofile'
 
 
 const StatusBlock = () => {
